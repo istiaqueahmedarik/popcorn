@@ -2,7 +2,7 @@ const ytdl = require('ytdl-core-discord')
 const ytpl = require('ytpl')
 const Discord = require('discord.js')
 
-module.exports.run = async (client,message,args,queue,searcher)=>{
+module.exports.run = async (client,message,args,queue,searcher,distube)=>{
   console.log(queue)
     const serverQueue = queue.get(message.guild.id);
 
@@ -130,7 +130,7 @@ module.exports.run = async (client,message,args,queue,searcher)=>{
             return;
         }
         const dispatcher = serverQueue.connection
-            .play(await ytdl(song.url), { type: 'opus' })
+            .play(await ytdl(song.url,{filter: 'audioonly',type:"mp3", quality: 'highestaudio', highWaterMark: 1<<25 }), { type: 'opus' },{highWaterMark: 1})
             .on('finish', () =>{
               if(serverQueue.loopone){
                 play(guild, serverQueue.songs[0]);
