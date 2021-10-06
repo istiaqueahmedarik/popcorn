@@ -11,7 +11,7 @@ module.exports.run = async (client,message,args,queue,searcher)=>{
 **Commands**
 **-yt / -youtube** => for watch together youtube!
 
-**-bt / -betrayal** => forplay betrayal!!(BETA) It's a better version of among us! It is in beta test. Discord will update it. 
+**-bt / -betrayal** => for play betrayal!!(BETA) It's a better version of among us! It is in beta test. Discord will update it. 
 
 **-dt / -doodle** => for play Doodle Crew. It's a game like skribble.io where you have to draw and guess. 
 
