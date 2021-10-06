@@ -11,11 +11,11 @@ module.exports.run = async (client,message,args,queue,searcher)=>{
 **Commands**
 **-yt / -youtube** => for watch together youtube!
 
-**-bt / -betrayal** => forplay betrayal!! It's a better version of among us!
+**-bt / -betrayal** => forplay betrayal!!(BETA) It's a better version of among us! It is in beta test. Discord will update it. 
 
-**-dt / -doodle** => for play Doodle Crew. It's a game like skribble.io where you have to draw and guess
+**-dt / -doodle** => for play Doodle Crew. It's a game like skribble.io where you have to draw and guess. 
 
-**-fs / -fishing** => for play fishing game
+**-fs / -fishing** => for play fishing game. It is in beta test. Discord will update it.
 
 **-lt / -lettertile** => for play lettertile. Letter Tile is a word game in which players earn points by constructing words from available tiles.
 
