@@ -10,6 +10,9 @@ module.exports.run = async (client,message,args,queue,searcher)=>{
                 .setDescription(`
 **Commands**
 **-yt / -youtube** => for watch together youtube!
+
+**-bt / -betrayal** => forplay betrayal!! It's a better version of among us!
+
 **-p / -pl  (video or playlist link or video name from youtube)** => for play or add video 
 add playlist in this format => https://www.youtube.com/playlist?list=***
 
