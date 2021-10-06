@@ -13,6 +13,18 @@ module.exports.run = async (client,message,args,queue,searcher)=>{
 
 **-bt / -betrayal** => forplay betrayal!! It's a better version of among us!
 
+**-dt / -doodle** => for play Doodle Crew. It's a game like skribble.io where you have to draw and guess
+
+**-fs / -fishing** => for play fishing game
+
+**-lt / -lettertile** => for play lettertile. Letter Tile is a word game in which players earn points by constructing words from available tiles.
+
+**-ws / -wordsnack** => for play wordsnack. How many words can you whip up with only a handful of letters?
+
+Swipe between the circle of letters to reveal words on the board! Discover a word first to claim it in your color, earning a point for each letter. Found a scrumptious word that isn’t on the board? You’ll get a bonus point as an extra sweet treat!
+
+When the smoke clears, the player with the most points wins!
+
 **-p / -pl  (video or playlist link or video name from youtube)** => for play or add video 
 add playlist in this format => https://www.youtube.com/playlist?list=***
 
