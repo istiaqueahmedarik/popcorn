@@ -21,7 +21,7 @@ module.exports.run = async (client,message,args,queue,searcher)=>{
   }).then(res=>res.json())
   .then(inv=>{
     if(!inv.code) return message.channel.send("Prblm ase!!")
-    message.channel.send(`Col eksathe kheli https://discord.com/invite/${inv.code}`)
+    message.channel.send(`Col eksathe betrayal kheli https://discord.com/invite/${inv.code}`)
   })
  
 }
